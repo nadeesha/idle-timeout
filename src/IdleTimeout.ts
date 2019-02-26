@@ -1,8 +1,8 @@
 import OptionsInterface from './interfaces/Options';
 
 export default class IdleTimeout {
-  protected storageKey = "IDLE_TIMEOUT_UNIVERSAL_LAST_ACTION_TIME";
-  
+  protected storageKey = 'IDLE_TIMEOUT_UNIVERSAL_LAST_ACTION_TIME';
+
   protected callback: () => void;
 
   protected options: OptionsInterface;
@@ -112,7 +112,7 @@ export default class IdleTimeout {
 
   protected getUniversalLastActionTime(): number {
     const fallbackTime = 0;
-    
+
     try {
       return Number(window.localStorage.getItem(this.storageKey)) || fallbackTime;
     } catch (e) {
