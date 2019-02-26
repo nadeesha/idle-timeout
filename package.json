@@ -1,15 +1,14 @@
 {
-  "name": "idle-timeout",
-  "version": "1.1.1",
-  "description": "A basic idle state detector written in ES6.",
-  "repository": "jackmu95/idle-timeout",
+  "name": "universal-idle-timeout",
+  "version": "0.0.1",
+  "repository": "certsy/universal-idle-timeout",
   "main": "dist/idle-timeout.js",
   "index": "src/index.ts",
   "license": "MIT",
   "maintainers": [
     {
-      "name": "Jacob Müller",
-      "email": "jacob.mueller.elz@gmail.com"
+      "name": "Nadeesha Cabral",
+      "email": "n@nadeesha.me"
     }
   ],
   "scripts": {
